@@ -1,6 +1,0 @@
-inherit gnome2
-
-
-ACLOCAL_FLAGS="-I m4"
-
-DOCS="introduction.pin"

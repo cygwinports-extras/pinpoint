@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="pinpoint"
+VERSION=0.1.4
+RELEASE=3
+CATEGORY="GNOME"
+SUMMARY="Simple presentation tool"
+DESCRIPTION="Pinpoint is a simple presentation tool that hopes to avoid
+audience death by bullet point and instead encourage presentations containing
+beautiful images and small amounts of concise text in slides."
+REQUIRES="gstreamer0.10-plugins-base"
+
+ACLOCAL_FLAGS="-I m4"
+
+DOCS="introduction.pin"
